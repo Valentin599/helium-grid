@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Réinitialisation et styles globaux */
+* {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Styles spécifiques */
+
+/* ****************************************************** */
+
+/* Styles pour le corps de la page */
+body {
+    font-family: "Inter", sans-serif;
+    background: rgb(15, 15, 15);
+    color: white;
+}
+
+/* Styles pour la barre de navigation */
+nav {
+    display: grid;
+    grid-template-columns: 50% 65%;
+    margin: 20px 5px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+nav ul li {
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+nav ul li:hover {
+    color: bisque;
+}
+
+/* Styles pour l'en-tête */
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.header-left-container h1 {
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+.header-left-container h3 {
+    font-size: 2rem;
+    color: rgb(92, 42, 207);
+}
+
+.header-right img {
+    width: 100%;
+}
+
+/* Styles pour les informations */
+.infos {
+    background: rgb(8, 8, 8);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 33% 67%;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 30%;
+}
+
+.btn-container button {
+    margin: 3px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+    background: rgb(71, 55, 218);
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-weight: 600;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: 35% 50% 5%;
+    height: 120px;
+    align-items: center;
+}
+
+.img-container img {
+    height: 60px;
+}
